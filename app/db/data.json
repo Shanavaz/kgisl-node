@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "craetedDate": "05-10-2020",
+        "number": "98746565",
+        "outGoingCallCount": 21,
+        "location": "Delhi",
+        "incomingCallCount": 10
+    },
+    {
+        "id": 2,
+        "name": "Son",
+        "craetedDate": "05-10-2020",
+        "number": "98746565",
+        "outGoingCallCount": 21,
+        "location": "Delhi",
+        "incomingCallCount": 10
+    }
+]
