@@ -14,8 +14,9 @@ exports.createContact = async (req, res) => {
         //     }
         // }
 
+        console.log(db.length)
         let id = 1
-        if (db[db.length - 1].id === undefined) {
+        if (db.length === 0 || db[db.length - 1].id === undefined) {
             id = 1
         } else {
             id = db[db.length - 1].id

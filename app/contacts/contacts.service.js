@@ -4,7 +4,7 @@ const db = require("../db/data.json");
 exports.createContact = async (contact) => {
     try {
         console.log("createContact -contactsService")
-
+        console.log(contact)
         db.push(contact)
         let responseObject = {
             status: 201,
@@ -53,7 +53,7 @@ exports.updateContact = async (contact) => {
     try {
         console.log("updateContact -contactsService")
         let index = contact.id
-        console.log(index)
+        console.log(contact)
         // db.map((val)=>{  
         //     console.log( val);
         // })
